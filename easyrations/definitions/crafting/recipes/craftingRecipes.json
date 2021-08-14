@@ -1,0 +1,57 @@
+[
+  {
+    "recipeName": "Rock Ration",
+    "craftingTypeName": "STONEMASONRY",
+    "input": [
+      {
+        "itemTypeName": "Resource-Stone-Unrefined",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Product-Ration",
+        "quantity": 20
+      }
+    ],
+    "materialTypesToCopyOver": ["STONE"],
+    "defaultTimeToCompleteCrafting": 1
+  },
+  {
+    "recipeName": "Log Ration",
+    "craftingTypeName": "WOODCUTTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Logs",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Product-Ration",
+        "quantity": 20
+      }
+    ],
+    "materialTypesToCopyOver": ["WOOD"],
+    "defaultTimeToCompleteCrafting": 1
+  },
+  {
+    "recipeName": "Plank Ration",
+    "craftingTypeName": "WOODCUTTING",
+    "input": [
+      {
+        "itemTypeName": "Resource-Planks",
+        "quantity": 1
+      }
+    ],
+    "output": [
+      {
+        "itemTypeName": "Product-Ration",
+        "quantity": 10
+      }
+    ],
+    "materialTypesToCopyOver": ["WOOD"],
+    "defaultTimeToCompleteCrafting": 1
+  }
+
+]
